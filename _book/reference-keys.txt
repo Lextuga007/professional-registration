@@ -1,5 +1,6 @@
 fig:nice-fig
 tab:nice-tab
+introductory-notes
 warnings
 licence
 motivations
@@ -7,15 +8,7 @@ information-governance
 corrections
 intro
 this-is-from-the-bookdown-template-and-ill-be-leaving-it-for-the-moment-as-it-has-useful-examples.
-the-application-ill-be-first-attempting-is-senior-practitioner.
 standard-1---analytical-approaches
-methods
-math-example
-applications
-example-one
-example-two
-final-words
-introductory-notes
 sp1.1
 sp.2
 sp.3
@@ -29,3 +22,9 @@ sp2.5
 sp2.7
 sp2.8
 sp2.9
+methods
+math-example
+applications
+example-one
+example-two
+final-words
