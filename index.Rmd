@@ -20,9 +20,17 @@ I had to change the _output.yaml file to replace `bookdown::pdf_book:` with `boo
 
 ## Licence
 
-This is licenced under CCO and I'm choosing to work openly on my registration as this is a collection of my knowledge and work that I feel can only benefit others if it's shared. 
+This is licenced under CCO and I'm choosing to work openly on my registration as this is a collection of my knowledge and work that I feel can only benefit others if it's shared. Most of it should already be on GitHub and if it's not, it should be!
+
+## Motivations
 
 If I am successful in being accredited then I always wanted to share that learning so why not start early? And if I fail or get corrections, then we can learn from that too.
+
+## Information Governance
+
+Any data used in this registration will be generated "synthetic data" and the code to generate it will be available. 
+
+I may change some code from the original to remove references to data structures that I do not own and have not had confirmed (yet) can be shared openly. 
 
 ## Corrections
 

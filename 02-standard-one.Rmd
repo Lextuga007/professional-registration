@@ -1,0 +1,3 @@
+# Standard 1 - Analytical approaches
+
+_This standard relates to your ability to perform analysis using recognised techniques with an understanding of the context of the analysis. You should consider analytical projects or pieces of work where you have taken a business problem or question and translated this into an analytical task. This should demonstrate understanding of the question, choice of data with justification and limitations, appropriate presentation that addresses the question, understanding of what the data show and conclusions to be drawn given said limitations._
