@@ -12,7 +12,11 @@ github-repo: rstudio/bookdown-demo
 description: "This is my evidence for AphA professional registration. I'm being 'radically open' about this by publishing it in bookdown through GitHub and publish on Netlify."
 ---
 
-# Warnings
+# Introductory notes
+
+The application I'll be first attempting is Senior Practitioner. 
+
+## Warnings
 
 I've set this up by using the bookdown package and the template example from [RStudio](https://github.com/rstudio/bookdown-demo) so for a bit it will look slightly odd as it will be my words followed by the template. 
 

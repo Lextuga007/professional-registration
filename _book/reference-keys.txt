@@ -15,3 +15,17 @@ applications
 example-one
 example-two
 final-words
+introductory-notes
+sp1.1
+sp.2
+sp.3
+sp.4
+standard-2-critical-application
+sp2.1
+sp2.2
+sp2.3
+sp2.4
+sp2.5
+sp2.7
+sp2.8
+sp2.9
