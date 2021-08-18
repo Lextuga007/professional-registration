@@ -1,3 +1,13 @@
 # Standard 1 - Analytical approaches
 
 _This standard relates to your ability to perform analysis using recognised techniques with an understanding of the context of the analysis. You should consider analytical projects or pieces of work where you have taken a business problem or question and translated this into an analytical task. This should demonstrate understanding of the question, choice of data with justification and limitations, appropriate presentation that addresses the question, understanding of what the data show and conclusions to be drawn given said limitations._
+
+Standard
+Commentary	Reflective Practice	Evidence Provided
+SP1.1 Identify which tools and techniques are most appropriate for the situation and justify the measures used. These situations will sometimes be non-routine although precedents are likely to have been established before within the team. Demonstrates a critical understanding (including researching) of the organisation and health care environment.
+
+
+
+
+
+	What was the situation and analytical challenge? Which tools were available to complete the task? Which tool was selected and why? What were the benefits of using this particular tool? Where there any disadvantages?
