@@ -1,6 +1,8 @@
 bookdown::gitbook:
   css: style.css
   config:
+    search:
+        engine: fuse
     toc:
       before: |
         <li><a href="./">AphA professional registration</a></li>

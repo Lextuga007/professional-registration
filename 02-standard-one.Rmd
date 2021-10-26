@@ -1,30 +1,30 @@
 # Standard 1 - Analytical approaches
 
-_This standard relates to your ability to perform analysis using recognised techniques with an understanding of the context of the analysis. You should consider analytical projects or pieces of work where you have taken a business problem or question and translated this into an analytical task. This should demonstrate understanding of the question, choice of data with justification and limitations, appropriate presentation that addresses the question, understanding of what the data show and conclusions to be drawn given said limitations._
+_This standard relates to your involvement in the adoption and strategic decision-making in relation to the selection of analytical tools and techniques across your team and the wider organisation.._
 
-## SP1.1
+## AP1.1
 
 Standard | Commentary | Reflective Practice | Evidence Provided
 |----|----|----|----|
-SP1.1 Identify which tools and techniques are most appropriate for the situation and justify the measures used. These situations will sometimes be non-routine although precedents are likely to have been established before within the team. Demonstrates a critical understanding (including researching) of the organisation and health care environment. | What was the situation and analytical challenge? Which tools were available to complete the task? Which tool was selected and why? What were the benefits of using this particular tool? Where there any disadvantages? | empty | empty
+AP1.1 Involved in deciding which tools and techniques are used for a team or large, multi-organisational analysis across a limited number of domains. These are likely to frequently include non –routine and/or complex situations. | empty | empty
  
-## SP.2
+## AP.2
 
 Standard | Commentary | Reflective Practice | Evidence Provided
 |----|----|----|----| 
-SP1.2 Have knowledge of a range of statistical/ numerical techniques, procedures acquired through qualification to degree level or equivalent relevant experience | Identify statistical techniques being used. How did you get the knowledge of these techniques (formal learning, on-line resources, etc.)? | empty | empty
+AP1.2 Justifies to Senior Managers the rationale for the tools and techniques applied and takes responsibility for the analysis for a team or large, multi-organisational analysis across a limited number of domains. | empty | empty
 
-## SP.3
-
-Standard | Commentary | Reflective Practice | Evidence Provided
-|----|----|----|----| 
-SP1.3 Be aware of the business questions that matter and how data fits with the organisation | How did you get a better understanding of the business requirements? Attendance at meetings, shadowing, etc. How is data used within your organisation and how do you fit it into this? | empty | empty
-
-## SP.4
+## AP.3
 
 Standard | Commentary | Reflective Practice | Evidence Provided
 |----|----|----|----| 
-SP1.4 Understands the strengths and limitations to the data used (and not used) and addresses data quality issues, seeking clarification and advice and justifying choices. Limitations of data are clearly explained in outputs | What data was used (or excluded) from the analysis and why. How did you articulate any data quality issues? How did you ensure the data was interpreted correctly. | empty | empty
+AP1.3 Searching out and developing existing and new analytical tools, techniques and approaches including dissemination (papers & presentations etc.) | empty | empty
+
+## AP.4
+
+Standard | Commentary | Reflective Practice | Evidence Provided
+|----|----|----|----| 
+AP1.4 Involved in structured and planned sharing of skills and knowledge (proactive) to analysts & non-Analysts within the organisation. | empty | empty
 
 # Standard 2 – Critical Application
 

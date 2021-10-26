@@ -14,7 +14,18 @@ description: "This is my evidence for AphA professional registration. I'm being 
 
 # Introductory notes
 
-The application I'll be first attempting is Senior Practitioner. 
+The application I'll be first attempting is ~~Senior Practitioner~~ Advanced Practitioner. Having met up with a couple of other great analysts about this and they were tackling Advanced Practitioner I decided I should really be following their lead and do the same! 
+
+I plan to outline some of the projects/analysis I've worked on which include:
+
+* Joining data across various clinical and non-clinical datasets to build up a complete dataset on patients who have died
+* Venn diagrams to understand the SMI (Serious Mental Illness - a register held by GPs) and CPAs (Care Pathway Approach - "for people in England with severe or complex mental health problems and those who may need services from a number of agencies to support them"^1 kept by the Trust)
+* Smoking prevalence of Mental Health patients (both community and inpatients) compared to the ONS (Office of National Statistics) prevalence figures
+* Improving and delivering the NHS-R Community Introduction to R and R Studio workshop 
+* Statistical analysis of surveys collected in the local Pride events
+* Mainining an R package to access the SQL server data in a consistent and tidy way
+
+[^1]: Mind charities explanation of [What is the Care Programme Approach?]((England)https://www.mind.org.uk/information-support/legal-rights/leaving-hospital/care-planning/#:~:text=The%20Care%20Programme%20Approach%20(CPA)%20is%20for%20people%20in%20England,of%20agencies%20to%20support%20them.)
 
 ## Warnings
 
