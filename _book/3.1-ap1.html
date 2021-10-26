@@ -5,7 +5,7 @@
 <meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="1.2 Licence | AphA Professional Registration" />
+<meta property="og:title" content="3.1 AP1.1 | AphA Professional Registration" />
 <meta property="og:type" content="book" />
 
 
@@ -25,7 +25,7 @@ MathJax.Hub.Config({
 
 <meta name="description" content="This is my evidence for AphA professional registration. I’m being ‘radically open’ about this by publishing it in bookdown through GitHub and publish on Netlify.">
 
-<title>1.2 Licence | AphA Professional Registration</title>
+<title>3.1 AP1.1 | AphA Professional Registration</title>
 
 <script src="libs/header-attrs-2.11.3/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -194,10 +194,10 @@ details > summary {
 <li><a href="2-intro.html#intro"><span class="toc-section-number">2</span> Introduction</a></li>
 <li><a href="3-standard-1---analytical-approaches.html#standard-1---analytical-approaches"><span class="toc-section-number">3</span> Standard 1 - Analytical approaches</a>
 <ul>
-<li><a href="3.1-sp1.html#sp1.1"><span class="toc-section-number">3.1</span> SP1.1</a></li>
-<li><a href="3.2-sp1.html#sp1.2"><span class="toc-section-number">3.2</span> SP1.2</a></li>
-<li><a href="3.3-sp.1.html#sp.1.3"><span class="toc-section-number">3.3</span> SP.1.3</a></li>
-<li><a href="3.4-sp.1.html#sp.1.4"><span class="toc-section-number">3.4</span> SP.1.4</a></li>
+<li><a href="3.1-ap1.html#ap1.1"><span class="toc-section-number">3.1</span> AP1.1</a></li>
+<li><a href="3.2-ap.html#ap.2"><span class="toc-section-number">3.2</span> AP.2</a></li>
+<li><a href="3.3-ap.html#ap.3"><span class="toc-section-number">3.3</span> AP.3</a></li>
+<li><a href="3.4-ap.html#ap.4"><span class="toc-section-number">3.4</span> AP.4</a></li>
 </ul></li>
 <li><a href="4-standard-2-critical-application.html#standard-2-critical-application"><span class="toc-section-number">4</span> Standard 2 – Critical Application</a>
 <ul>
@@ -227,13 +227,45 @@ details > summary {
 </div>
 <div class="row">
 <div class="col-sm-12">
-<div id="licence" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Licence</h2>
-<p>This is licenced under CCO and I’m choosing to work openly on my registration as this is a collection of my knowledge and work that I feel can only benefit others if it’s shared. Most of it should already be on GitHub and if it’s not, it should be!</p>
+<div id="ap1.1" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> AP1.1</h2>
+<table>
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Standard</th>
+<th>Commentary</th>
+<th>Reflective Practice</th>
+<th>Evidence Provided</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AP1.1 Involved in deciding which tools and techniques are used for a team or large, multi-organisational analysis across a limited number of domains. These are likely to frequently include non –routine and/or complex situations.</td>
+<td><em>Sharing documentation and methodology</em></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Documenting, promoting and explaining what we do as a team is incredibly important to my team and it can be very difficult keeping web pages updated if you don’t have easy access to them. We also wanted public facing pages, particularly to explain our methodology and share public resources with ICS colleagues as well as any other interested people, so I chose to create our websites using the {distill} package in R which has recently had a lot of development and training material made available to get started. I have also chosen to publish these through GitHub as we used this for version control and publishing is free. We can control who has access to the site to update it but also accept comments or corrections through the <a href="https://github.com/CDU-data-science-team/team-blog/issues">Issues</a> in GitHub.</p>
+<p>Alternatives that I didn’t use were Wiki pages through SharePoint and Azure DevOps for version control, however, these only available internally to my organisation and also restrict access to only some Trust colleagues in the case of Azure DevOps. I did create a Hugo Apéro site for the <a href="https://ethics-committee-resources.netlify.app/">Ethics Committee</a> which I published through Netlify but I chose not to use this for the team as a Netlify account, although free for our level of usage, needs to be registered to one person. It’s also a more complicated site which is very powerful but too expansive for the blogs we required.</p>
+<p>I have contributed to the <a href="https://nhsrcommunity.com/blog/author/z-turner/">NHS-R Community</a> blog site which uses WordPress and again, there is a cost. Given our specific skills in using {RMarkdown} and requirement to share code this wasn’t quite suitable as it’s more text based blogging, rather than technical.</p>
+<p>I have now suggested that my ICS consider using this as a tool for blogging. In preparation I have created a template site in GitHub which has GitHub actions (for automatic building of the site) and instructions on how to publish through GitHub in the site.</p>
+<p><em>Tools for analysis</em></p>
+<p>Prior to the start of <a href="https://nhsrcommunity.com/">NHS-R Community</a> in 2018 my only tools for analysis were SQL and Excel and I would often rely upon SQL to do much of the analysis as it is a scripted language and I preferred to use it for it’s potential for reproducibility. However, SQL is a relational database language and not an analysis language; it is also not a statistical program language. Consequently, when I was first asked for analysis, like finding the prevalence of smokers amongst patients in the Trust Mental Health services, I used Excel and SQL. This was successful, if not easily reproducible so my analysis would always be one-off and slow to reproduce or investigate further. I now use SQL for extraction of data and R solely for analysis (having dropped Excel for anything other than data imports) and this is not only reproducible but is easier to manage workflows. This has worked so well for me that I have encouraged others to start learning R by training as part of the NHS-R Community and have taught every month during 2021. I’ve written about being a <a href="https://nhsrcommunity.com/blog/how-r-changed-me-as-an-analyst/">better analyst</a> and I am encouraging colleagues in my Trust to move away from their current analyst tool solutions (Access databases and Excel) by sharing my experiences of using R and knowledge, whilst acknowledging the difficulties faced when learning a new language. | <em>Sharing documentation and methodology</em></p>
+<p>{distill} websites include: <a href="https://cdu-data-science-team.github.io/team-blog/">Team blog</a>, <a href="https://cdu-data-science-team.github.io/understanding-your-data/">Understanding Your Data</a>, <a href="https://cdu-data-science-team.github.io/distill-blog-template/">Template site</a></p>
+<p><em>Tools for analysis</em>
+Training of the introduction to R and R Studio <a href="https://philosopher-analyst.netlify.app/collection/">materials</a> and <a href="https://nhsrcommunity.com/events/">course dates</a> through NHS-R Community.</p>
 </div>
 <p style="text-align: center;">
-<a href="1.1-warnings.html"><button class="btn btn-default">Previous</button></a>
-<a href="1.3-motivations.html"><button class="btn btn-default">Next</button></a>
+<a href="3-standard-1---analytical-approaches.html"><button class="btn btn-default">Previous</button></a>
+<a href="3.2-ap.html"><button class="btn btn-default">Next</button></a>
 </p>
 </div>
 </div>

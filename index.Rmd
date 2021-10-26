@@ -14,12 +14,12 @@ description: "This is my evidence for AphA professional registration. I'm being 
 
 # Introductory notes
 
-The application I'll be first attempting is ~~Senior Practitioner~~ Advanced Practitioner. Having met up with a couple of other great analysts about this and they were tackling Advanced Practitioner I decided I should really be following their lead and do the same! 
+The application I'll be first attempting is Senior Practitioner. 
 
 I plan to outline some of the projects/analysis I've worked on which include:
 
 * Joining data across various clinical and non-clinical datasets to build up a complete dataset on patients who have died
-* Venn diagrams to understand the SMI (Serious Mental Illness - a register held by GPs) and CPAs (Care Pathway Approach - "for people in England with severe or complex mental health problems and those who may need services from a number of agencies to support them"^1 kept by the Trust)
+* Venn diagrams to understand the SMI (Serious Mental Illness - a register held by GPs) and CPAs (Care Pathway Approach - "for people in England with severe or complex mental health problems and those who may need services from a number of agencies to support them" [^1] kept by the Trust)
 * Smoking prevalence of Mental Health patients (both community and inpatients) compared to the ONS (Office of National Statistics) prevalence figures
 * Improving and delivering the NHS-R Community Introduction to R and R Studio workshop 
 * Statistical analysis of surveys collected in the local Pride events
