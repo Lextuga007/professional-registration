@@ -63,42 +63,40 @@
 <h2>
 <span class="header-section-number">3.1</span> SP1.1<a class="anchor" aria-label="anchor" href="#sp1.1"><i class="fas fa-link"></i></a>
 </h2>
-<div class="inline-table"><table class="table table-sm">
+<div class="inline-table"><table style="width:21%;" class="table table-sm">
 <colgroup>
-<col width="11%">
 <col width="9%">
-<col width="76%">
-<col width="2%">
+<col width="11%">
 </colgroup>
 <thead><tr class="header">
-<th>Standard</th>
-<th>Commentary</th>
-<th>Reflective Practice</th>
-<th>Evidence Provided</th>
+<th>### St</th>
+<th>andard | ### Commentary</th>
 </tr></thead>
 <tbody><tr class="odd">
-<td>SP1.1 Identify
-which tools and techniques are most appropriate for the situation and justify
-the measures used. These situations will sometimes be non-routine although
-precedents are likely to have been established before within the team.
-Demonstrates a critical understanding (including researching) of the organisation and health care environment.</td>
-<td><em>What was the situation and analytical challenge? Which
-tools were available to complete the task? Which tool was selected and why?
-What were the benefits of using this particular tool? Where there any disadvantages?</em></td>
-<td>
+<td>SP1.1</td>
+<td>Identify which tools and techniques are most appropriate for the situation and justify the measures used. These situations will sometimes be non-routine although precedents are likely to have been established before within the team. Demonstrates a critical understanding (including researching) of the organisation and health care environment. | <em>What was the situation and analytical challenge? Which tools were available to complete the task? Which tool was selected and why? What were the benefits of using this particular tool? Where there any disadvantages?</em>
+</td>
+</tr></tbody>
+</table></div>
+<div id="reflective-practice" class="section level3" number="3.1.1">
+<h3>
+<span class="header-section-number">3.1.1</span> Reflective Practice<a class="anchor" aria-label="anchor" href="#reflective-practice"><i class="fas fa-link"></i></a>
+</h3>
 <p>I was asked to find the smoking prevalence for mental health patients in the care of the Trust. Although smoking status had been recorded in two forms over the years the prevalence had never been calculated, only current smokers counted for <a href="https://www.gov.uk/government/publications/health-matters-preventing-ill-health-from-alcohol-and-tobacco/health-matters-preventing-ill-health-from-alcohol-and-tobacco-use">CQUINs</a>. Also, as the smoking status was not recorded regularly, to work out the yearly prevalence would require assuming smoking status for the years when they had an open referral but no smoking status recorded. I originally only had SQL and Excel as tools to complete this so I used SQL to combine data which counted:</p>
+</div>
+<div id="evidence-provided" class="section level3" number="3.1.2">
+<h3>
+<span class="header-section-number">3.1.2</span> Evidence Provided |<a class="anchor" aria-label="anchor" href="#evidence-provided"><i class="fas fa-link"></i></a>
+</h3>
+<p><a href="https://lextuga007.github.io/smoking-prevalence/smoking-prevalence-analysis.html">Smoking prevalence report</a> [Code|(<a href="https://github.com/Lextuga007/smoking-prevalence" class="uri">https://github.com/Lextuga007/smoking-prevalence</a>)</p>
 <ol style="list-style-type: decimal">
-<li>an assessment in a referral/inpatient stay</li>
-<li>an assessment before a referral/inpatient stay and assumed no change in smoking status in the interim period</li>
+<li>an assessment in a referral/inpatient stay 2. an assessment before a referral/inpatient stay and assumed no change in smoking status in the interim period</li>
 <li>an assessment after a referral/inpatient stay and assumed no change</li>
 </ol>
 <p>SQL was the only way I could script this logic to make it reproducible but when I was asked to update this I moved to R as this is a more flexible analytical and statistical language. By moving the code to another language I validated my previous logic and I realised it was better to produce a row for each year between assessments and fill down the missing years. I also had mistakenly counted the ages based on the admission dates and, of course, everyone ages each year so I changed the age calculation to be on the first of every year. This isn’t quite accurate but is much closer than my initial approach.</p>
 <p>I used RMarkdown to produce the workflow to bring the data together, including the ONS smoking prevalence data, manipulate this to create a new dataset and the produce statistics from it. This meant I could write more narrative around the analysis which, when it was in SQL was left as comments in the script and not shared.</p>
 <p>The downside to using R was only that it takes longer in R than in SQL, due to RAM needs, to fill the missing data if the dataset is a couple of million rows. I got around this by using a package called {data.table} which, whilst I’m not familiar with, is much faster at processing data than my usual package of choice, {dplyr}.</p>
-</td>
-<td></td>
-</tr></tbody>
-</table></div>
+</div>
 </div>
 <div id="sp1.2" class="section level2" number="3.2">
 <h2>
@@ -106,10 +104,10 @@ What were the benefits of using this particular tool? Where there any disadvanta
 </h2>
 <div class="inline-table"><table class="table table-sm">
 <colgroup>
-<col width="28%">
-<col width="54%">
-<col width="8%">
-<col width="8%">
+<col width="46%">
+<col width="40%">
+<col width="6%">
+<col width="6%">
 </colgroup>
 <thead><tr class="header">
 <th>Standard</th>
@@ -118,9 +116,7 @@ What were the benefits of using this particular tool? Where there any disadvanta
 <th>Evidence Provided</th>
 </tr></thead>
 <tbody><tr class="odd">
-<td>SP1.2 Have knowledge of a range of statistical/ numerical techniques,
-procedures acquired through qualification to degree level or equivalent
-relevant experience</td>
+<td>SP1.2 Have knowledge of a range of statistical/ numerical techniques, procedures acquired through qualification to degree level or equivalent relevant experience</td>
 <td><em>Identify statistical techniques being used. How did you get the knowledge of these techniques (formal learning, on-line resources, etc.)?</em></td>
 <td>empty</td>
 <td></td>
@@ -131,12 +127,12 @@ relevant experience</td>
 <h2>
 <span class="header-section-number">3.3</span> SP.1.3<a class="anchor" aria-label="anchor" href="#sp.1.3"><i class="fas fa-link"></i></a>
 </h2>
-<div class="inline-table"><table class="table table-sm">
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
 <colgroup>
-<col width="26%">
-<col width="55%">
-<col width="9%">
-<col width="9%">
+<col width="29%">
+<col width="57%">
+<col width="6%">
+<col width="6%">
 </colgroup>
 <thead><tr class="header">
 <th>Standard</th>
@@ -146,12 +142,10 @@ relevant experience</td>
 </tr></thead>
 <tbody><tr class="odd">
 <td>
-<p>SP1.3 Be aware of the business
-questions that matter and how data fits with the organisation</p>
+<p>SP1.3 Be aware of the business questions that matter and how data fits with the organisation</p>
 <p> </p>
 </td>
-<td><em>How did you get a better understanding of the business requirements? Attendance at meetings, shadowing, etc. How is data used within
-your organisation and how do you fit it into this?</em></td>
+<td><em>How did you get a better understanding of the business requirements? Attendance at meetings, shadowing, etc. How is data used within your organisation and how do you fit it into this?</em></td>
 <td>empty</td>
 <td></td>
 </tr></tbody>
@@ -161,12 +155,12 @@ your organisation and how do you fit it into this?</em></td>
 <h2>
 <span class="header-section-number">3.4</span> SP.1.4<a class="anchor" aria-label="anchor" href="#sp.1.4"><i class="fas fa-link"></i></a>
 </h2>
-<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<div class="inline-table"><table class="table table-sm">
 <colgroup>
-<col width="27%">
-<col width="57%">
-<col width="7%">
-<col width="7%">
+<col width="51%">
+<col width="38%">
+<col width="5%">
+<col width="5%">
 </colgroup>
 <thead><tr class="header">
 <th>Standard</th>
@@ -175,10 +169,7 @@ your organisation and how do you fit it into this?</em></td>
 <th>Evidence Provided</th>
 </tr></thead>
 <tbody><tr class="odd">
-<td>SP1.4
-Understands the strengths and limitations to the data used (and not used) and
-addresses data quality issues, seeking clarification and advice and justifying
-choices. Limitations of data are clearly explained in outputs</td>
+<td>SP1.4 Understands the strengths and limitations to the data used (and not used) and addresses data quality issues, seeking clarification and advice and justifying choices. Limitations of data are clearly explained in outputs</td>
 <td><em>What data was used (or excluded) from the analysis and why. How did you articulate any data quality issues? How did you ensure the data was interpreted correctly.</em></td>
 <td>empty</td>
 <td></td>
@@ -193,7 +184,12 @@ choices. Limitations of data are clearly explained in outputs</td>
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
 <li><a class="nav-link" href="#standard-1---analytical-approaches"><span class="header-section-number">3</span> Standard 1 - Analytical approaches</a></li>
-<li><a class="nav-link" href="#sp1.1"><span class="header-section-number">3.1</span> SP1.1</a></li>
+<li>
+<a class="nav-link" href="#sp1.1"><span class="header-section-number">3.1</span> SP1.1</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#reflective-practice"><span class="header-section-number">3.1.1</span> Reflective Practice</a></li>
+<li><a class="nav-link" href="#evidence-provided"><span class="header-section-number">3.1.2</span> Evidence Provided |</a></li>
+</ul>
+</li>
 <li><a class="nav-link" href="#sp1.2"><span class="header-section-number">3.2</span> SP1.2</a></li>
 <li><a class="nav-link" href="#sp.1.3"><span class="header-section-number">3.3</span> SP.1.3</a></li>
 <li><a class="nav-link" href="#sp.1.4"><span class="header-section-number">3.4</span> SP.1.4</a></li>
@@ -213,7 +209,7 @@ choices. Limitations of data are clearly explained in outputs</td>
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>AphA Professional Registration</strong>" was written by Zoë Turner. It was last built on 2021-10-26.</p>
+    <p>"<strong>AphA Professional Registration</strong>" was written by Zoë Turner. It was last built on 2021-10-29.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

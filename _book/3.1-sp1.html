@@ -14,7 +14,7 @@
 
 <meta name="author" content="Zoë Turner" />
 
-<meta name="date" content="2021-10-26" />
+<meta name="date" content="2021-10-29" />
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -194,7 +194,11 @@ details > summary {
 <li><a href="2-intro.html#intro"><span class="toc-section-number">2</span> Introduction</a></li>
 <li><a href="3-standard-1---analytical-approaches.html#standard-1---analytical-approaches"><span class="toc-section-number">3</span> Standard 1 - Analytical approaches</a>
 <ul>
-<li><a href="3.1-sp1.html#sp1.1"><span class="toc-section-number">3.1</span> SP1.1</a></li>
+<li><a href="3.1-sp1.html#sp1.1"><span class="toc-section-number">3.1</span> SP1.1</a>
+<ul>
+<li><a href="3.1-sp1.html#reflective-practice"><span class="toc-section-number">3.1.1</span> Reflective Practice</a></li>
+<li><a href="3.1-sp1.html#evidence-provided"><span class="toc-section-number">3.1.2</span> Evidence Provided |</a></li>
+</ul></li>
 <li><a href="3.2-sp1.html#sp1.2"><span class="toc-section-number">3.2</span> SP1.2</a></li>
 <li><a href="3.3-sp.1.html#sp.1.3"><span class="toc-section-number">3.3</span> SP.1.3</a></li>
 <li><a href="3.4-sp.1.html#sp.1.4"><span class="toc-section-number">3.4</span> SP.1.4</a></li>
@@ -229,44 +233,39 @@ details > summary {
 <div class="col-sm-12">
 <div id="sp1.1" class="section level2" number="3.1">
 <h2><span class="header-section-number">3.1</span> SP1.1</h2>
-<table>
+<table style="width:21%;">
 <colgroup>
-<col width="11%" />
 <col width="9%" />
-<col width="76%" />
-<col width="2%" />
+<col width="11%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Standard</th>
-<th>Commentary</th>
-<th>Reflective Practice</th>
-<th>Evidence Provided</th>
+<th>### St</th>
+<th>andard | ### Commentary</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>SP1.1 Identify
-which tools and techniques are most appropriate for the situation and justify
-the measures used. These situations will sometimes be non-routine although
-precedents are likely to have been established before within the team.
-Demonstrates a critical understanding (including researching) of the organisation and health care environment.</td>
-<td><em>What was the situation and analytical challenge? Which
-tools were available to complete the task? Which tool was selected and why?
-What were the benefits of using this particular tool? Where there any disadvantages?</em></td>
-<td><p>I was asked to find the smoking prevalence for mental health patients in the care of the Trust. Although smoking status had been recorded in two forms over the years the prevalence had never been calculated, only current smokers counted for <a href="https://www.gov.uk/government/publications/health-matters-preventing-ill-health-from-alcohol-and-tobacco/health-matters-preventing-ill-health-from-alcohol-and-tobacco-use">CQUINs</a>. Also, as the smoking status was not recorded regularly, to work out the yearly prevalence would require assuming smoking status for the years when they had an open referral but no smoking status recorded. I originally only had SQL and Excel as tools to complete this so I used SQL to combine data which counted:</p>
+<td>SP1.1</td>
+<td>Identify which tools and techniques are most appropriate for the situation and justify the measures used. These situations will sometimes be non-routine although precedents are likely to have been established before within the team. Demonstrates a critical understanding (including researching) of the organisation and health care environment. | <em>What was the situation and analytical challenge? Which tools were available to complete the task? Which tool was selected and why? What were the benefits of using this particular tool? Where there any disadvantages?</em></td>
+</tr>
+</tbody>
+</table>
+<div id="reflective-practice" class="section level3" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> Reflective Practice</h3>
+<p>I was asked to find the smoking prevalence for mental health patients in the care of the Trust. Although smoking status had been recorded in two forms over the years the prevalence had never been calculated, only current smokers counted for <a href="https://www.gov.uk/government/publications/health-matters-preventing-ill-health-from-alcohol-and-tobacco/health-matters-preventing-ill-health-from-alcohol-and-tobacco-use">CQUINs</a>. Also, as the smoking status was not recorded regularly, to work out the yearly prevalence would require assuming smoking status for the years when they had an open referral but no smoking status recorded. I originally only had SQL and Excel as tools to complete this so I used SQL to combine data which counted:</p>
+</div>
+<div id="evidence-provided" class="section level3" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Evidence Provided |</h3>
+<p><a href="https://lextuga007.github.io/smoking-prevalence/smoking-prevalence-analysis.html">Smoking prevalence report</a> [Code|(<a href="https://github.com/Lextuga007/smoking-prevalence" class="uri">https://github.com/Lextuga007/smoking-prevalence</a>)</p>
 <ol style="list-style-type: decimal">
-<li>an assessment in a referral/inpatient stay</li>
-<li>an assessment before a referral/inpatient stay and assumed no change in smoking status in the interim period</li>
+<li>an assessment in a referral/inpatient stay 2. an assessment before a referral/inpatient stay and assumed no change in smoking status in the interim period</li>
 <li>an assessment after a referral/inpatient stay and assumed no change</li>
 </ol>
 <p>SQL was the only way I could script this logic to make it reproducible but when I was asked to update this I moved to R as this is a more flexible analytical and statistical language. By moving the code to another language I validated my previous logic and I realised it was better to produce a row for each year between assessments and fill down the missing years. I also had mistakenly counted the ages based on the admission dates and, of course, everyone ages each year so I changed the age calculation to be on the first of every year. This isn’t quite accurate but is much closer than my initial approach.</p>
 <p>I used RMarkdown to produce the workflow to bring the data together, including the ONS smoking prevalence data, manipulate this to create a new dataset and the produce statistics from it. This meant I could write more narrative around the analysis which, when it was in SQL was left as comments in the script and not shared.</p>
-<p>The downside to using R was only that it takes longer in R than in SQL, due to RAM needs, to fill the missing data if the dataset is a couple of million rows. I got around this by using a package called {data.table} which, whilst I’m not familiar with, is much faster at processing data than my usual package of choice, {dplyr}.</p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<p>The downside to using R was only that it takes longer in R than in SQL, due to RAM needs, to fill the missing data if the dataset is a couple of million rows. I got around this by using a package called {data.table} which, whilst I’m not familiar with, is much faster at processing data than my usual package of choice, {dplyr}.</p>
+</div>
 </div>
 <p style="text-align: center;">
 <a href="3-standard-1---analytical-approaches.html"><button class="btn btn-default">Previous</button></a>
