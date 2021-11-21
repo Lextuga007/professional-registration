@@ -45,7 +45,7 @@ For small number analysis I specifically chose to use time between charts in SPC
 
 ### Evidence Provided
 
-#### Mortality 
+#### Mortality
 
 I presented this particular presentation at:
 
@@ -93,8 +93,9 @@ AphA Statistics day course, Leeds, 22 March 2018 (with John Varlow)
 
 +-----------------------------------+-----------------------------------+
 | Reflective Practice               | Evidence Provided                 |
-+===================================+===================================+
 +-----------------------------------+-----------------------------------+
+
++===================================+===================================+ +-----------------------------------+-----------------------------------+
 
 ### Reflective Practice
 
